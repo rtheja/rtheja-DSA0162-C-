@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a character:";
+	cin>>a;
+	if(a == 'A' || a == 'Z')
+	cout<<" upper case";
+	else if(a == 'a' || a == 'z')
+	cout<<" lower case:";
+	else if(a == '1' || a == '9')
+	cout<<"digit";
+	else
+	cout<<"special character";
+	return 0;
+}
